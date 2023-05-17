@@ -46,5 +46,5 @@ Cuando alcances las 21 monedas, se te presentará un cromo al azar. Si ya tienes
 
 
 ###
-![Clicker](https://github.com/JorgeA-Z/QT-Traductor-Completo/blob/main/Modulo%201/Codigo%20fuente/Imagenes/Máquina%20de%20estados.jpeg)
+![Clicker]([https://github.com/JorgeA-Z/QT-Traductor-Completo/blob/main/Modulo%201/Codigo%20fuente/Imagenes/Máquina%20de%20estados.jpeg](https://github.com/JorgeA-Z/cromos/blob/main/Capturas/Clicker.png))
 
