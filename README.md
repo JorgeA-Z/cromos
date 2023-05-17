@@ -69,3 +69,19 @@ Finalmente, en la última columna, encontrarás los cromos normales. Aunque no t
 Explora nuestras cuatro columnas de cromos y descubre la emoción de coleccionar héroes épicos, legendarios y normales. ¡Prepárate para llenar tu colección con los personajes más asombrosos y extraordinarios!
 
 ![alt text](https://github.com/JorgeA-Z/cromos/blob/4818232698fd1572f35ba69b772dbd3716284148/Capturas/Coleccion.png)
+
+## Vista de administrador
+
+La vista de administrador de nuestra plataforma te brinda un control completo sobre la gestión de héroes, permitiéndote agregar y editar nuevos personajes de manera eficiente. Esta vista está diseñada con un enfoque técnico que utiliza Firebase y Javascript para actualizar los componentes de manera dinámica.
+
+Mediante la integración de Firebase, nuestra plataforma aprovecha la potencia de su base de datos en tiempo real para almacenar y recuperar información sobre los héroes. Al acceder a la vista de administrador, podrás utilizar las funciones de Firebase para agregar nuevos héroes a la base de datos o editar los existentes.
+
+Con Javascript, se implementan las funcionalidades necesarias para interactuar con la base de datos y realizar las operaciones de añadir y editar héroes. A través de llamadas a la API de Firebase, se actualizan los componentes de la vista en tiempo real, reflejando los cambios realizados en la base de datos de forma instantánea y sincronizada.
+
+![alt text](https://github.com/JorgeA-Z/cromos/blob/4818232698fd1572f35ba69b772dbd3716284148/Capturas/List.png)
+
+La vista de administrador te proporciona un entorno intuitivo y eficaz para añadir nuevos héroes a tu colección. Podrás ingresar la información relevante del héroe, como su nombre, origen y características especiales, y luego guardar los cambios en la base de datos utilizando las funcionalidades de Firebase y Javascript.
+
+En resumen, la vista de administrador utiliza la combinación de Firebase y Javascript para actualizar de forma dinámica los componentes, garantizando una experiencia fluida y eficiente en la gestión de héroes en nuestra plataforma de cromos online.
+
+![alt text](https://github.com/JorgeA-Z/cromos/blob/4818232698fd1572f35ba69b772dbd3716284148/Capturas/Add.png)
