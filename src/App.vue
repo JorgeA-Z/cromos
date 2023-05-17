@@ -69,55 +69,32 @@ const handleSingOut = () => {
 
 <template>
   <header>
+    <nav class="nav nav-pills flex-column flex-sm-row Navigation">
+      <router-link class="flex-sm-fill text-sm-center text" to="/">
+            Heroes
+      </router-link>
+      
+      <router-link v-if="isLoggedIn == true" class="flex-sm-fill text-sm-center text" to="/Clicker"> cromes </router-link>
+      
+      <router-link v-if="isLoggedIn == true" class="flex-sm-fill text-sm-center text" to="/coleccion"> coleccion </router-link>
 
-    <nav class="navbar navbar-expand-lg Navigation">
-      <div class="container-fluid">
-        <router-link class="navbar-brand text" to="/">
-          <img src="./components/icons/logo.ico" alt="" width="30" height="24" class="d-inline-block align-text-top">
-          Heroes
-        </router-link>
+      <router-link v-if="isLoggedIn == true && isAdmin == true" class="flex-sm-fill text-sm-center text" to="/add"> add</router-link>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link v-if="isLoggedIn == false" class="nav-link text" to="/"> About </router-link>
-            </li>
-            <li class="nav-item">
-              <router-link v-if="isLoggedIn == true" class="nav-link text" to="/Clicker"> cromes </router-link>
-            </li>
-            <li class="nav-item">
-              <router-link v-if="isLoggedIn == true" class="nav-link text" to="/coleccion"> coleccion </router-link>
-            </li>
-            <li class="nav-item">
-              <router-link v-if="isLoggedIn == true && isAdmin == true" class="nav-link text" to="/add"> add
-              </router-link>
-            </li>
-            <li class="nav-item">
-              <router-link v-if="isLoggedIn == true && isAdmin == true" class="nav-link text" to="/list"> list
-              </router-link>
-            </li>
+      <router-link v-if="isLoggedIn == true && isAdmin == true" class="flex-sm-fill text-sm-center text" to="/list"> list</router-link>
 
-            <li class="nav-item">
-              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+      <div class="btn-group flex-sm-fill text-sm-center" role="group" aria-label="Basic mixed styles example">
                 <router-link v-if="isLoggedIn == false" class="btn Button" to="/sign-in"> Sing-In </router-link>
                 <router-link v-if="isLoggedIn == false" class="btn Button" to="/register"> Register </router-link>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <button class="btn Button" type="button" @click="handleSingOut" v-if="isLoggedIn">Sing Out</button>
-            </li>
-
-          </ul>
-        </div>
+                <button class="btn Button flex-sm-fill text-sm-center" type="button" @click="handleSingOut" v-if="isLoggedIn">Sing Out</button>
       </div>
+
     </nav>
 
   </header>
 
   <body>
     <main>
-        <RouterView></RouterView>
+      <RouterView></RouterView>
 
     </main>
   </body>
@@ -133,10 +110,7 @@ const handleSingOut = () => {
 
   box-shadow: inset 0 0 0 #FFE5C4, 0 10px 0 #8E869D;
 
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  
+
   color: white;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
@@ -144,18 +118,18 @@ const handleSingOut = () => {
   text-align: center;
 
 }
+
 .Button:after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    padding: 4px;
-    position: absolute;
-    bottom: -15px;
-    left: -4px;
-    z-index: -1;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .text {
@@ -163,13 +137,15 @@ const handleSingOut = () => {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
-  text-align: center;
+  text-align:center;
+  text-decoration: none;
 }
 
 .Navigation {
   background-color: #F799AC;
+  height: 40px;
 
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   text-shadow: 0px 1px 0px #000;
