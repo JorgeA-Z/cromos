@@ -44,7 +44,14 @@ Cuando alcances las 21 monedas, se te presentará un cromo al azar. Si ya tienes
 
 ¡Disfruta de la emoción de hacer clic en nuestro botón, coleccionar monedas y desbloquear cromos para ampliar tu colección de héroes!
 
+![Clicker](https://github.com/JorgeA-Z/cromos/blob/4818232698fd1572f35ba69b772dbd3716284148/Capturas/Clicker.png)
 
-###
-![alt text](https://github.com/JorgeA-Z/cromos/blob/4818232698fd1572f35ba69b772dbd3716284148/Capturas/Clicker.png)
+## Inicio de sesión
 
+Registrarse en nuestra página web de cromos online es fácil y rápido. Puedes hacerlo de dos formas:
+
+La primera opción es a través de tu cuenta de Google. Solo necesitas hacer clic en el botón "Registrarse con Google" y seguir los pasos indicados para iniciar sesión y vincular tu cuenta de Google con nuestra página web.
+
+La segunda opción es mediante correo electrónico. Simplemente ingresa tu dirección de correo electrónico y crea una contraseña segura en el formulario de registro. Luego, sigue las instrucciones que recibirás en tu correo electrónico para verificar tu cuenta y empezar a coleccionar tus héroes favoritos.
+
+![alt text](https://github.com/JorgeA-Z/cromos/blob/4818232698fd1572f35ba69b772dbd3716284148/Capturas/Login.png)
