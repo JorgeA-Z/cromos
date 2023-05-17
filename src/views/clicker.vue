@@ -36,8 +36,28 @@ function sum() {
 
 }
 
-function Open() {
+function getCrome()
+{
+    let index = getRandomInt(0, Heroes.length - 1)
 
+    console.log(index)
+    console.log(Heroes[index].get('dis'))
+
+    while(Heroes[index].get('dis') == false)
+    {
+        index = getRandomInt(0, Heroes.length - 1)
+    }
+
+
+
+
+    return index;
+
+}
+
+function Open() {
+    
+    let index;
     coins = 0;
 
     op = false;
@@ -48,10 +68,8 @@ function Open() {
         card.classList.remove('rotated');
     }, 1000);
 
-
-    let index = getRandomInt(0, Heroes.length - 1)
-
-    console.log(index)
+    index = getCrome()
+   
     showCard(Heroes[index])
     UpdatCard(Heroes[index])
 

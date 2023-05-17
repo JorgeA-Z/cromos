@@ -78,9 +78,8 @@
               <td>{{ h.att }}</td>
               <td>{{ h.def }}</td>
               <td>
-                <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                  <button @click="deleteHeroe(h)" type="button" class="btn Button">Delete</button>
-                  <button @click="OpenHeroe(h)" type="button" class="btn Button">Edit</button>
+                <div class="container">
+                  <button @click="OpenHeroe(h)" type="button" class="btn Button btn-lg">Edit</button>
                 </div>
               </td>
             </tr>
