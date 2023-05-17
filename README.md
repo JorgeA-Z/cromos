@@ -37,6 +37,20 @@ npm run dev
 ```sh
 npm run build
 ```
+## Alojamiento
+
+Nuestra aplicación está alojada en Netlify, una plataforma de alojamiento web que ofrece un entorno de despliegue rápido, seguro y escalable. Netlify es ampliamente reconocido por su enfoque en la entrega continua (CI/CD) y su capacidad para integrarse sin problemas con herramientas de desarrollo modernas.
+
+Netlify proporciona una serie de características y beneficios que hacen que sea una opción popular para alojar aplicaciones web. Entre sus principales características se incluyen:
+
+1. Despliegue continuo: Netlify automatiza el proceso de despliegue de la aplicación, permitiendo actualizaciones y cambios rápidos y sin problemas. Con la integración de sistemas de control de versiones como Git, cualquier cambio realizado en el repositorio se refleja automáticamente en la aplicación desplegada.
+
+2. Escalabilidad y rendimiento: Netlify ofrece una infraestructura de alojamiento escalable que garantiza un rendimiento óptimo incluso ante un alto tráfico de usuarios. Utiliza una red global de servidores de entrega de contenido (CDN) para proporcionar una respuesta rápida y una carga eficiente de los recursos.
+
+3. Seguridad y certificados SSL: La plataforma de Netlify garantiza la seguridad de la aplicación mediante la protección contra ataques y la implementación automática de certificados SSL (Secure Socket Layer). Esto asegura una conexión encriptada entre el usuario y la aplicación, protegiendo los datos sensibles.
+
+4. Integración con servicios externos: Netlify se integra fácilmente con otros servicios populares, como sistemas de gestión de contenido (CMS) o servicios de autenticación, lo que facilita la construcción de aplicaciones completas y dinámicas.
+
 
 ## Funcionamiento
 
