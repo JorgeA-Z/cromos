@@ -55,3 +55,17 @@ La primera opción es a través de tu cuenta de Google. Solo necesitas hacer cli
 La segunda opción es mediante correo electrónico. Simplemente ingresa tu dirección de correo electrónico y crea una contraseña segura en el formulario de registro. Luego, sigue las instrucciones que recibirás en tu correo electrónico para verificar tu cuenta y empezar a coleccionar tus héroes favoritos.
 
 ![alt text](https://github.com/JorgeA-Z/cromos/blob/4818232698fd1572f35ba69b772dbd3716284148/Capturas/Login.png)
+
+## Colección
+
+Nuestra colección en el sitio web se presenta en forma de cuatro columnas de cromos, cada una de ellas exhibiendo una variedad de héroes emocionantes de diferentes medios. Cada cromo está cuidadosamente diseñado y se distingue por su color, indicando su rareza.
+
+En primer lugar, encontrarás los cromos épicos, los cuales destacan por su color llamativo y vibrante. Estos cromos representan a héroes icónicos y poderosos de diversas franquicias, capturando la atención de los coleccionistas más dedicados.
+
+Continuando en la siguiente columna, estarán los cromos legendarios. Estos cromos son verdaderas joyas, con un color y diseño únicos que los hacen destacar entre la multitud. Representan a los héroes más legendarios y emblemáticos de todos los tiempos, siendo el orgullo de cualquier colección.
+
+Finalmente, en la última columna, encontrarás los cromos normales. Aunque no tengan colores tan llamativos como los anteriores, son esenciales para completar tu colección y representan a héroes que han dejado una marca en el mundo del entretenimiento. Estos cromos tienen su propio encanto y pueden ser la sorpresa perfecta en tu búsqueda de héroes.
+
+Explora nuestras cuatro columnas de cromos y descubre la emoción de coleccionar héroes épicos, legendarios y normales. ¡Prepárate para llenar tu colección con los personajes más asombrosos y extraordinarios!
+
+![alt text](https://github.com/JorgeA-Z/cromos/blob/4818232698fd1572f35ba69b772dbd3716284148/Capturas/Coleccion.png)
