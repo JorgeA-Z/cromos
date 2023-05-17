@@ -1,4 +1,4 @@
-# myheroecromos
+# My Heroe cromos
 
 ¡Bienvenido a nuestra página web de cromos online! Aquí podrás disfrutar de una experiencia única de coleccionismo de héroes provenientes de una gran variedad de medios, como video juegos, anime, películas, animación y mucho más. Estamos emocionados de ofrecerte la oportunidad de coleccionar y intercambiar tus héroes favoritos con otros fans alrededor del mundo.
 
@@ -35,3 +35,16 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Funcionamiento
+
+En nuestra plataforma, la mecánica para conseguir cromos es sencilla y divertida. Contamos con un pequeño botón en el que podrás hacer clic y ganar monedas. Cada vez que haces clic en el botón, obtendrás una determinada cantidad de monedas. Tu objetivo es acumular 21 monedas para desbloquear un cromo.
+
+Cuando alcances las 21 monedas, se te presentará un cromo al azar. Si ya tienes ese cromo en tu colección, no se guardará nuevamente, pero si aún no lo tienes, se añadirá automáticamente a tu colección. Es importante destacar que para participar en esta mecánica, es necesario iniciar sesión en la plataforma utilizando tu cuenta de Google o un correo electrónico funcional.
+
+¡Disfruta de la emoción de hacer clic en nuestro botón, coleccionar monedas y desbloquear cromos para ampliar tu colección de héroes!
+
+
+###
+![Clicker](https://github.com/JorgeA-Z/QT-Traductor-Completo/blob/main/Modulo%201/Codigo%20fuente/Imagenes/Máquina%20de%20estados.jpeg)
+
