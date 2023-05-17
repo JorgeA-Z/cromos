@@ -83,7 +83,7 @@ const handleSingOut = () => {
               <router-link v-if="isLoggedIn == false" class="nav-link text" to="/"> About </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link text" to="/Clicker"> cromes </router-link>
+              <router-link v-if="isLoggedIn == true" class="nav-link text" to="/Clicker"> cromes </router-link>
             </li>
             <li class="nav-item">
               <router-link v-if="isLoggedIn == true" class="nav-link text" to="/coleccion"> coleccion </router-link>
