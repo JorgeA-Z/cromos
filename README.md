@@ -1,16 +1,21 @@
 # myheroecromos
 
-This template should help get you started developing with Vue 3 in Vite.
+¡Bienvenido a nuestra página web de cromos online! Aquí podrás disfrutar de una experiencia única de coleccionismo de héroes provenientes de una gran variedad de medios, como video juegos, anime, películas, animación y mucho más. Estamos emocionados de ofrecerte la oportunidad de coleccionar y intercambiar tus héroes favoritos con otros fans alrededor del mundo.
 
-## Recommended IDE Setup
+## Desarrollo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Nuestra aplicación de cromos online ha sido creada utilizando tecnologías de vanguardia para brindarte la mejor experiencia. Está desarrollada con Vue.js, un potente framework de JavaScript que permite una interfaz de usuario dinámica e interactiva. Además, utilizamos Node.js como entorno de ejecución para el servidor, lo que garantiza un rendimiento eficiente y escalable. Para el almacenamiento de datos y la gestión de usuarios, confiamos en Firebase, una plataforma de desarrollo de aplicaciones en la nube. Por último, hemos aprovechado las capacidades de diseño responsivo y estilización de Bootstrap para ofrecerte una interfaz moderna y atractiva. Gracias a esta combinación de tecnologías de última generación, podemos brindarte una experiencia fluida y envolvente en nuestra aplicación de cromos online.
 
-## Customize configuration
+### Front-end
+- Vue.js
+- Bootstrap
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Back-end
+- Node
+- Firebase
 
-## Vue.js and Project Setup
+#### Vue.js and Project Setup
+
 ```sh
 npm init vue@latest
 ```
@@ -19,13 +24,13 @@ npm init vue@latest
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+#### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+#### Compile and Minify for Production
 
 ```sh
 npm run build
