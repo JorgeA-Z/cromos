@@ -2,7 +2,7 @@
 
 ¡Bienvenido a nuestra página web de cromos online! Aquí podrás disfrutar de una experiencia única de coleccionismo de héroes provenientes de una gran variedad de medios, como video juegos, anime, películas, animación y mucho más. Estamos emocionados de ofrecerte la oportunidad de coleccionar y intercambiar tus héroes favoritos con otros fans alrededor del mundo.
 
-Link de la aplicación [netlify]([https://pages.github.com/](https://646508a512304011ef3ae3ba--zippy-cassata-e0b9ce.netlify.app)).
+Link de la aplicación [netlify]([https://pages.github.com/](https://646508a512304011ef3ae3ba--zippy-cassata-e0b9ce.netlify.app).
 
 ## Desarrollo
 
